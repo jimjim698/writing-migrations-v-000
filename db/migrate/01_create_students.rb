@@ -9,17 +9,13 @@ def self.create_table
     SQL
 
     ActiveRecord::Base.connection.execute(sql)
-  end 
+  end
 
-  def create_table
+  def change
     create_table :students do |t|
       t.strings :name
     end
   end
 
-  def change
-    create_table
-  end
-
-
+  
 end
