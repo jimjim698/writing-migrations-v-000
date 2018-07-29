@@ -4,7 +4,7 @@ def self.create_table
   sql = <<-SQL
     CREATE TABLE IF NOT EXISTS students(
       id INTEGER PRIMARY KEY,
-      name Text
+      name TEXT 
     )
     SQL
 
