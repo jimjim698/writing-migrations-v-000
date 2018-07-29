@@ -13,7 +13,7 @@ def self.create_table
 
   def change
     create_table :students do |t|
-      t.strings :name
+      t.string :name
     end
   end
 
